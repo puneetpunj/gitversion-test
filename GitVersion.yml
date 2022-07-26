@@ -1,5 +1,10 @@
-mode: Mainline
-branches: {}
+mode: ContinuousDeployment
+branches: 
+  master:
+    tag: ''
+    increment: Minor
+  feature:
+    increment: Minor
 ignore:
   sha: []
 merge-message-formats: {}
