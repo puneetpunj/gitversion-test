@@ -3,6 +3,7 @@ branches:
   main:
     regex: ^master$
     increment: Minor
+    prevent-increment-of-merged-branch-version: false
   hotfix:
     regex: ^hotfix/.*
     increment: patch
