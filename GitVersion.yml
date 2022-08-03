@@ -2,7 +2,7 @@ mode: Mainline
 branches:
   master:
     regex: ^master$
-    increment: Minor    
+    increment: none  
   hotfix:
     regex: ^hotfix/.*
     increment: patch
@@ -13,5 +13,5 @@ branches:
     tag: '{BranchName}'
   feature:
     regex: ^(?!.*master|hotfix|pull|pull\-requests|pr).*
-    increment: none
+    increment: Minor
     tag: '{BranchName}'
